@@ -1,0 +1,48 @@
+www.facebook.com/groups/GdgCloudChennaiK8sSelfStudy
+www.facebook.com/groups/GdgCloudChennaiK8sSelfStudy
+
+CNCF Overview was done by Manikandan, GCP Architect, @manikandank276
+
+Non-Virtualised Servers : Sun 2000
+
+Launched by Sun Microsystems. 
+
+Virutalization : VMWare [2001]
+Releases for server market in 2001
+Popularizes virtual machines
+Run many VMs on one physical machinne, meaninng you can buy fewer servers.
+
+
+Ifrastructure as a Service : AWS [2006]
+
+Rent Servers by the hour
+Architectural building block is also a VM, called as an Amazon Machine Image
+Convert CapEx to OpEx.
+CapEx - Capital Expense
+OpEx - Operational Expense
+AWS creates the IaaS market by launching Elastic Compute Cloud (EC2) in 2006
+
+PaaS : Heroku [2009]
+Building block is a buildpack, which enables containerized 12-factor applications.
+Multiple applications in one VM.
+Completes with AWS and VMWare
+
+Docker [2013]
+Cloud Native : CNCF [2015]
+CN computing uses an open source software stack to 
+ - segment applications into microservers
+ - package each part innto its own container
+ - and dynamically orchestrate those containers to optimize resource utilization
+
+Initial name of Kubernetes : 
+
+Avoid Vedor LockIn
+Enable Unlimited Scalability
+ - Scales from several nodes on ur laptop to 
+
+Increase Agility and Maintainability
+ - By splitting applictions into microservices with explicitly described dependencies
+
+Achieve resiliency
+
+Improve efficiency
