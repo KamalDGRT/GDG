@@ -46,3 +46,24 @@ Increase Agility and Maintainability
 Achieve resiliency
 
 Improve efficiency
+
+
+Browse for :
+Kubernetes in Search Trends
+30 Highest Velocity Open source Projects.
+Serverless in CNCF
+CNCF Structure
+Why Organizations Are Adopting Cloud Native
+Certified Kubernetes Conformance
+Kubernetes Certified Administrator
+Training and Certfication
+Introduction fo Kubernetes course on edX
+Kubernetes Fundamentals course
+KubeCon + CloudNativeChennai
+
+CheckOut these URLs
+cloudevents.io
+cncf.io/ck
+kubecon.io
+github.com/cncf/presentations
+docs.google.com/presentation/d/e/2PACX-1vT5UEnN_FDCsbjfmah3yQBJ8Rz9khaTiW2uiEM01oe9CRSBOxuEYixmN5aaV69eN4jdF9ALCyYQAXZl/pub?start=true
