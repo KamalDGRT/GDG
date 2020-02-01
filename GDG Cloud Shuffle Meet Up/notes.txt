@@ -66,4 +66,5 @@ cloudevents.io
 cncf.io/ck
 kubecon.io
 github.com/cncf/presentations
+
 docs.google.com/presentation/d/e/2PACX-1vT5UEnN_FDCsbjfmah3yQBJ8Rz9khaTiW2uiEM01oe9CRSBOxuEYixmN5aaV69eN4jdF9ALCyYQAXZl/pub?start=true

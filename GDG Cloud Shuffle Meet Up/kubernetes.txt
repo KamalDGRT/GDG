@@ -1,0 +1,81 @@
+it is a container orchestration tool
+
+Kubernetes Architecture
+
+Master - Slave Structures
+
+In Master Node, we have
+ - API Server [pods, services, ...]
+ - Scheduler
+ - Controller Manager
+
+Pod will communcate through proxy
+
+Difference between container and pod : 
+
+
+In Worker Node, we have,
+  - Kubelet
+  - proxy
+  - Docker
+
+Docker will have pods in different containers.
+
+One feature / advanatage
+If pod dies , we have all the info in schedulers.
+
+Multiple Masters is not possible in Kubernetes.
+Master is called the ContrlPane.
+Services run on master :
+ - Pipline
+ - Kafka
+ - Prometheus Server
+ - Grafana
+
+Open Source tool : Traffic.
+
+Understanding Installatin Methods
+Some type of Kubernetes installations:
+MiniKube - Installation is easy
+Google Container Engine [GKE]
+AWS provider
+Manual Install
+Cogs
+MiniShift
+Node Can be physical machine / VM Container
+
+
+Kubernetes Primary Concepts
+
+Node : Machine in a Cluster
+Pods : A pod is the basic building block of Kubernetes - the smallest and simplest unit inn the Kubernetes object model 
+that you create or deploy, is also a group of containers (1 or more). Only containers of same pod can share shared storage.
+Service: is an abstraction which defines a logical set of Pods and a policy by which to access them
+Replicasets : Ensures how many replica of pod should be running.
+Namespaces : 
+Deployment : Desired state of pods for declarative updates
+Daemonset : Ensures a particular pod to be run on some or all nnodes
+persistentvolume : Persistent storage inn the cluster with an independent lifecycle
+persistentvolumeclaim :request for storage (for a PersistentVolume) by a user
+ingress : An ingress is a collection of rules that allow inbound connections to reach the cluster services.
+Secret : Kubernetes secret objects let you store and manage sensitive information, such as passwords, OAuth tokens, and 
+ssh keys.
+
+
+in Kubernetes Communnication is done either by port 80 or 443. So, when one or more service is run in this port, it kind 
+of crashes. So, it is considered as a disadvantage.
+
+
+Namespaces: 
+
+Stable version of Kubernetes : 1.7 Jan 2019
+
+K8s features:
+ - automatic binpacking
+ - service discovery and load balancing
+ - storage orchestration
+ - self healing
+ - secret configuration management
+ - batch execution
+ - horizontal ...
+ vilvamani007@gmail.com
