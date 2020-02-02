@@ -1,0 +1,22 @@
+What is AutoML?
+
+AutoML lets you train custom machine learning model without writing single line of code.
+Since 2017.
+
+Why AutoML?
+
+Userbase?
+Who should go for AutoML? If you know ML, there are few steps for that.
+1. ML Beginners.
+2. Web Developer.
+3. Mobile App Developer
+4. People with less or no Maths knowledge.
+
+Is AutoML and Transfer learning same? NO.
+
+MLSelfStudy
+CertSelfStudy
+cloud.google.com/certfication/
+coursera.org/promo/googlecloud
+
+https://qrgo.page.link/5YmwS
