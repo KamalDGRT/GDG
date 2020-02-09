@@ -1,0 +1,167 @@
+    1  cd ~
+    2  sudo apt -y install git
+    3  git clone https://get.openstack.org/openstack-dev/devstack
+    4  git clone https://git.openstack.org/openstack-dev/devstack
+    5  cd devstack
+    6  ls
+    7  cat stack.sh
+    8  ls
+    9  ifconfig
+   10  ip -a
+   11  uname -a
+   12  sudo chown stack:stack /home/stack
+   13  pwd
+   14  ls
+   15  cd ~
+   16  pwd
+   17  sudo chown stack:stack /opt/stack
+   18  ls
+   19  echo '[[local|localrc]]' > local.conf
+   20  ls
+   21  cat local.conf 
+   22  ls
+   23  mv local.conf devstack/
+   24  ls
+   25  cd devstack
+   26  ls
+   27  chmod 0755 stack.sh
+   28  ls
+   29  ls -a
+   30  df -h
+   31  ls
+   32  ./stack.sh
+   33  sudo systemctl restart apache2
+   34  journalctl -xe
+   35  sudo journalctl -xe
+   36  cd /etc/apache2
+   37  apache2ctl configtest 
+   38  sudo apt-get purge apache2
+   39  sudo apt-get install apache2
+   40  sudo systemctl enable apache2
+   41  syudo systemctl start apache2
+   42  sudo systemctl start apache2
+   43  journalctl | talil
+   44  journalctl | tail
+   45  sudo journalctl | tail
+   46  echo "ServerName localhost" | sudo tee /etc/apache2/conf-available/servername.conf
+   47  echo "ServerName openstack" | sudo tee /etc/apache2/conf-available/servername.cocd
+   48  ls
+   49  cd ~
+   50  ls
+   51  sudo a2enconf servername
+   52  systemctl reload apache2
+   53  sudo systemctl reload apache2
+   54  sudo systemctl enable apache2
+   55  sudo systemctl start apache2
+   56  sudo systemctl status apache2.service 
+   57  sudo apache2ctl graceful
+   58  ls
+   59  sudo service apache2 restart
+   60  sudo nano /etc/apache2/apache2.conf 
+   61  cd /etc/
+   62  ls
+   63  cat hostts
+   64  cat hosts
+   65  sudo apache2ctl configtest 
+   66  apache2 
+   67  ls
+   68  sudo journalctl -xe
+   69  sudo nano /etc/apace2/conf.d/fqdn
+   70  ls
+   71  sudo nano /etc/apache2/conf.d/fqdn
+   72  cd apache2/
+   73  ls
+   74  sudo nano apache2.conf
+   75  sudo apache2ctl configtest 
+   76  sudo service apache2 restart
+   77  sudo systemctl status apache2.service
+   78  ls
+   79  cat ports.conf 
+   80  cd sites-enabled/
+   81  ls
+   82  cat 000-default.conf 
+   83  cd ../..
+   84  cd .
+   85  cd /
+   86  cd et 
+   87  cd etc/
+   88  cd apache2/
+   89  ls
+   90  cd conf-enabled/
+   91  ls
+   92  cat servername.conf
+   93  sudo nano servername.conf 
+   94  cat servername.conf
+   95  sudo systemctl status apache2.service
+   96  sudo apache2ctl configtest 
+   97  cat servername.conf
+   98  sudo nano servername.conf 
+   99  sudo apache2ctl configtest 
+  100  sudo systemctl status apache2.service
+  101  sudo service apache2 restart
+  102  sudo systemctl status apache2.service
+  103  netstat 
+  104  netstat -o
+  105  listen
+  106  sudo /etc/init.d/apache2 restart
+  107  sudo lsof -i :80
+  108  sudo apache2ctl -v
+  109  sudo kill -9 5678
+  110  sudo kill -9 5673
+  111  sudo kill -9 5676
+  112  sudo kill -9 5677
+  113  sudo lsof -i :80
+  114  sudo kill -9 33388
+  115  sudo lsof -i :80
+  116  sudo service apache2 restart
+  117  sudo systemctl status apache2.service
+  118  httpd
+  119  sudo nano servername.conf 
+  120  history | grep "sudo nano"
+  121  sudo nano apache2.conf
+  122  ls
+  123  cd ..
+  124  ls
+  125  sudo nano ports.conf
+  126  ls
+  127  cd sites-enabled/
+  128  ls
+  129  sudo nano 000-default.conf 
+  130  sudo systemctl status apache2.service
+  131  sudo service apache2 restart
+  132  sudo systemctl status apache2.service
+  133  sudo semanage port 0l | grep http
+  134  netstat -plant
+  135  sudo lsof -i:80
+  136  history | grep kill
+  137  sudo kill -9 *
+  138  sudo kill -9 36*
+  139  sudo kill -9 36035
+  140  sudo kill -9 35914
+  141  sudo lsof -i:80
+  142  sudo kill -9 36033
+  143  sudo lsof -i:80
+  144  sudo kill -9 36034
+  145  sudo lsof -i:80
+  146  sudo kill -9 69786
+  147  sudo lsof -i:80
+  148  sudo systemctl stop httpd
+  149  httpd
+  150  su -
+  151  sudo lsof -i:80
+  152  sudo ss -plnt sport eq :80
+  153  sudo lsof -i:80
+  154  ps -aux | grep httpd
+  155  grep 443 | /etc/httpd/conf.d/*
+  156  sudo a2dismod ssl
+  157  service apache2 restart
+  158  sudo service apache2 restart
+  159  sudo journalctl -xe 
+  160  ric
+  161  system rest
+  162  openstack
+  163  history
+  164  cd~
+  165  cd ~
+  166  ls
+  167  history >> a.txt
